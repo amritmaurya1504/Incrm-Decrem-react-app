@@ -29,14 +29,15 @@
     align-items: center;
 }
 h1{
-    color: #fff;
+    /* color: #fff; */
     background: transparent;
-    font-size: 50px;
-    background: #30336b;
+    font-size: 80px;
+    font-weight: 100;
+    /* background: #30336b; */
     padding: 6px 0 2px 0;
-    margin-bottom: 10px;
+    margin-bottom: 60px;
     width: 100%;
-    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+    text-shadow: 5px 5px 10px rgba(0,0,0,0.3);
 }
 button{
     min-height: 40px;
@@ -58,6 +59,12 @@ button{
     justify-content: space-around;
     align-items: center;
 }
-button:hover{
+/* button:hover{
     background-color: #22a6b3;
+} */
+.btn_green:hover{
+   color: #2ed573;
+}
+.btn_red:hover{
+    color: #ff4757;
 }
